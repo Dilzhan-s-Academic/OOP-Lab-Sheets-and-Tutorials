@@ -9,6 +9,8 @@ public class ex07 {
 		
 		System.out.print("Enter the 1st Number : ");
 		num2 = Integer.parseInt(scanner.nextLine());
+
+		scanner.close();
 		
 		double avg = ( num1 + num2 ) / 2.0;
 		int total = num1 + num2;
